@@ -1,0 +1,133 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background: #333;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 40px 0;
+  text-align: center;
+}
+
+#hero {
+  background: #f2f2f2;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+#features h2 {
+  margin-bottom: 30px;
+}
+
+.feature {
+  margin-bottom: 40px;
+}
+
+
+.feature h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#pricing h2 {
+  margin-bottom: 30px;
+}
+
+.price-option {
+  width: 33%;
+  display: inline-block;
+  margin-bottom: 40px;
+}
+
+.price-option h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.price-option p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.price-option ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.price-option ul li {
+  margin-bottom: 5px;
+}
+
+#contact h2 {
+  margin-bottom: 30px;
+}
+#contact{
+    width: 500px;
+
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 10px 20px;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background: #333;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}
